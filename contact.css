@@ -26,13 +26,13 @@ nav a{
 body {
   padding-top: 50px;
 }
-p {
-  display: inline-block; 
+p { 
   margin: 10px;          
 }
 
 label {
   display: inline-block;  
-  margin-right: 10px;     
+  margin-right: 10px; 
+  width: 100px    
 }
 
