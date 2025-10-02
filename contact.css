@@ -1,0 +1,9 @@
+@charset "UTF-8";
+body {
+
+  background: color(srgb rgb(66, 66, 66) rgb(83, 83, 83) rgb(70, 70, 70));
+
+  background: linear-gradient(45deg, #ffcccc, #ccffff);
+
+}
+

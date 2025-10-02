@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Feedback Form</title>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <form action="mailto:leo.dalati@ontariotechu.net?subject=Feedback from website"
+            enctype="text/plain" method="post" name="FeedbackForm"
+            >
+            <p>
+                <label for="FName">First Name: </label>
+                <input type="text" name="FName" size="40"
+                placeholder="Enter your first name" required>
+            </p>
+            <p>
+                <label for="LName">Last Name: </label>
+                <input type="text" name="LName" size="40"
+                placeholder="Enter your last name" required>
+            </p>
+            <p>
+                <label for="Email">Email: </label>
+                <input type="email" name="Email" size="40"
+                placeholder="Enter your email address" required>
+            </p>
+            <p>
+              <label for="phone">Cell phone: </label>
+                <input type="tel" name="phone" size="40"
+                placeholder="Enter your phone number" required
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+            </p>
+            <p>
+                <label for="comments">Comments: </label>
+                <br>
+                <textarea name="comments" cols="60" rows="8"></textarea>
+            </p> 
+                </datalist>
+                <br><br>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </p>
+            </form>
+            <footer>
+                <p>Contact: <a href="mailto:leo.dalati@ontariotechu.net">leo.dalati@ontariotechu.net</a></p>
+                <p>&copy; 2025 My Website. All rights reserved.</p>
+            </footer>
+        </div>
+    </body>
+</html>
