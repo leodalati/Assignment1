@@ -22,3 +22,22 @@ button{
 h4{
   margin-left: 40px;
 }
+
+nav {
+    text-align: center;
+    font-size: x-large;
+    
+    
+}
+nav a:hover {
+  color: darkblue;
+}
+
+nav a{
+    padding: 15px;
+    margin-right: 24px;
+    color: blue;
+}
+body {
+  padding-top: 50px;
+}

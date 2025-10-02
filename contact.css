@@ -7,3 +7,32 @@ body {
 
 }
 
+nav {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 40px;
+    
+    
+}
+nav a:hover {
+  color: darkblue;
+}
+
+nav a{
+    padding: 15px;
+    margin-right: 24px;
+    color: blue;
+}
+body {
+  padding-top: 50px;
+}
+p {
+  display: inline-block; 
+  margin: 10px;          
+}
+
+label {
+  display: inline-block;  
+  margin-right: 10px;     
+}
+
