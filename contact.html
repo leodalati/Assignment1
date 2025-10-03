@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Feedback Form</title>
-        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="stylesheet" type="text/css" href="contact.css"> 
     </head>
     <body>
         <nav>
@@ -13,24 +13,24 @@
         <div id="wrapper">
             <form action="mailto:leo.dalati@ontariotechu.net?subject=Feedback from website"
             enctype="text/plain" method="post" name="FeedbackForm"
-            >
+            > <!--Setting the email address to contact-->
             <p>
-                <label for="FName">First Name: </label>
+                <label for="FName">First Name: </label> <!--Adding Labels and placeholders for users to enter values-->
                 <input type="text" name="FName" size="40"
                 placeholder="Enter your first name" required>
             </p>
             <p>
-                <label for="LName">Last Name: </label>
+                <label for="LName">Last Name: </label> 
                 <input type="text" name="LName" size="40"
                 placeholder="Enter your last name" required>
             </p>
             <p>
-                <label for="Email">Email: </label>
+                <label for="Email">Email: </label> <!--Specifically for emails-->
                 <input type="email" name="Email" size="40"
                 placeholder="Enter your email address" required>
             </p>
             <p>
-              <label for="phone">Cell phone: </label>
+              <label for="phone">Cell phone: </label> <!--Specifically for phone numbers-->
                 <input type="tel" name="phone" size="40"
                 placeholder="Enter your phone number" required
                 pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
@@ -38,17 +38,17 @@
             <p>
                 <label for="comments">Comments: </label>
                 <br>
-                <textarea name="comments" cols="60" rows="8"></textarea>
+                <textarea name="comments" cols="60" rows="8"></textarea> <!--bigger text area for comments-->
             </p> 
                 </datalist>
                 <br><br>
-                <input type="reset" value="Reset">
-                <input type="submit" value="Submit">
+                <input type="reset" value="Reset"> <!--Reset button-->
+                <input type="submit" value="Submit"> <!--Submit button-->
             </p>
             </form>
             <footer>
                 <p>Contact: <a href="mailto:leo.dalati@ontariotechu.net">leo.dalati@ontariotechu.net</a></p>
-                <p>&copy; 2025 My Website. All rights reserved.</p>
+                <p>&copy; 2025 My Website. All rights reserved.</p> <!--displaying contact and copyrights-->
             </footer>
         </div>
     </body>
